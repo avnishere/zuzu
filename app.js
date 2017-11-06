@@ -54,7 +54,7 @@ http.createServer(function (req,resp) {
         });
 
         req.on('end', function () {
-            convertExcel("Payment_File_Sample_headers.xlsx", null, null, function (err,data) {
+            convertExcel("Payment_File_Sample.xlsx", null, null, function (err,data) {
                 resp.setHeader('content-type', 'application/json');
                 resp.writeHead(200);
                 resp.end(JSON.stringify(data));
