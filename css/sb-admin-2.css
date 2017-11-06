@@ -432,3 +432,15 @@ table.dataTable thead .sorting:after {
     border-left-width: 0;
   }
 }
+
+.bgcolor {
+  background-color: #95a7e2;
+  color : white;
+}
+
+.MarginSee {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#fff;
+    border: 1px;
+}
