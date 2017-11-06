@@ -369,6 +369,7 @@ else {
 
     function seeAll() {
         var getSavedKey = localStorage.getItem("KeySaved");
+        var docTable = document.getElementById("myTableAll");
         for(var i= 0; i <= getSavedKey; i++){
             var getData = JSON.parse(localStorage.getItem("testObject" + i));
             var docTable = document.getElementById("myTableAll");
